@@ -1,0 +1,2 @@
+﻿61) В каталоге находятся файлы со следующими именами: chifera.dat, chifera.doc, ferrum.doc, deLafer.doc, oferta.doc, tokoferol.docx. Определите, по какой из масок будет выбрано ровно три файла: $1)  *fer?*.d*    2)  ?*fer*?.doc*        3) *?fer*?.doс      4) ?*fer?*.docx$
+62)В каталоге находятся файлы со следующими именами: primera.dat, primera.doc, merchant.doc, k-mer.doc, omerta.doc, Tamerlan.docx. Определите, по какой из масок будет выбрано ровно три файла: $1)  *mer?*.d*    2)  *mer*?.doc*        3) ?*mer?*.doc      4) *?mer*?.doc*$

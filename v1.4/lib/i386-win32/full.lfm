@@ -1,0 +1,62 @@
+object Full_F: TFull_F
+  Left = 20
+  Height = 660
+  Top = 60
+  Width = 663
+  BorderStyle = bsSingle
+  Caption = 'Full_F'
+  ClientHeight = 660
+  ClientWidth = 663
+  OnCreate = FormCreate
+  LCLVersion = '1.2.6.0'
+  object Memo_Text_Exe: TMemo
+    Left = 24
+    Height = 583
+    Top = 9
+    Width = 614
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -27
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object Answer_Exe: TEdit
+    Left = 24
+    Height = 23
+    Top = 32
+    Width = 614
+    TabOrder = 1
+    Visible = False
+  end
+  object Answer_text: TEdit
+    Left = 24
+    Height = 31
+    Top = 600
+    Width = 288
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 336
+    Height = 50
+    Top = 600
+    Width = 302
+    Caption = 'Начать'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -27
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 3
+  end
+end

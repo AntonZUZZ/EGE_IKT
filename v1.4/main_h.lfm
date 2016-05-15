@@ -1,0 +1,56 @@
+object Nomb_F: TNomb_F
+  Left = 596
+  Height = 202
+  Top = 152
+  Width = 320
+  BorderStyle = bsSingle
+  Caption = 'Nomb_F'
+  ClientHeight = 202
+  ClientWidth = 320
+  LCLVersion = '1.2.6.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 31
+    Top = 24
+    Width = 267
+    Caption = 'Введите номер задания'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -27
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 112
+    Height = 31
+    Top = 72
+    Width = 80
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 187
+    Height = 43
+    Top = 144
+    Width = 104
+    Caption = 'Далее'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object back: TButton
+    Left = 24
+    Height = 43
+    Top = 144
+    Width = 104
+    Caption = 'Назад'
+    OnClick = backClick
+    TabOrder = 2
+  end
+end

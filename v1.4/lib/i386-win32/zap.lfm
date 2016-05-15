@@ -1,0 +1,55 @@
+object Zap_F: TZap_F
+  Left = 317
+  Height = 594
+  Top = 208
+  Width = 899
+  Caption = 'Zap_F'
+  ClientHeight = 594
+  ClientWidth = 899
+  Color = clScrollBar
+  LCLVersion = '1.2.6.0'
+  object Panel1: TPanel
+    Left = 11
+    Height = 570
+    Top = 10
+    Width = 765
+    Caption = 'Panel1'
+    ClientHeight = 570
+    ClientWidth = 765
+    Color = clInfoBk
+    ParentColor = False
+    TabOrder = 0
+    object PaintBox1: TPaintBox
+      Left = 7
+      Height = 552
+      Top = 8
+      Width = 752
+      OnMouseDown = PaintBox1MouseDown
+      OnMouseMove = PaintBox1MouseMove
+      OnMouseUp = PaintBox1MouseUp
+    end
+  end
+  object Edit1: TEdit
+    Left = 784
+    Height = 23
+    Top = 72
+    Width = 104
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 784
+    Height = 33
+    Top = 32
+    Width = 104
+    Caption = 'Размер пера'
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 784
+    Height = 33
+    Top = 176
+    Width = 104
+    Caption = 'Цвет пера'
+    TabOrder = 3
+  end
+end

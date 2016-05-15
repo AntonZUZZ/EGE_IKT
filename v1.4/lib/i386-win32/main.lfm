@@ -1,0 +1,147 @@
+object Ege_F: TEge_F
+  Left = 82
+  Height = 621
+  Top = 114
+  Width = 660
+  BorderStyle = bsSingle
+  Caption = 'Ege_F'
+  ClientHeight = 621
+  ClientWidth = 660
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  object Gen: TButton
+    Left = 432
+    Height = 70
+    Top = 528
+    Width = 129
+    Caption = 'Новое задание'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = GenClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Memo_Text_Exe: TMemo
+    Left = 16
+    Height = 512
+    Top = 8
+    Width = 632
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -27
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      ''
+      '                                Нажмите                '
+      '                                  кнопку'
+      '                           "Новое задание"'
+    )
+    OnChange = Memo_Text_ExeChange
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object Answer_Exe: TEdit
+    Left = 24
+    Height = 23
+    Top = 32
+    Width = 614
+    TabOrder = 2
+    Visible = False
+  end
+  object Answer_text: TEdit
+    Left = 24
+    Height = 29
+    Top = 528
+    Width = 278
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 320
+    Height = 70
+    Top = 528
+    Width = 104
+    Caption = 'Проверить'
+    Enabled = False
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 168
+    Height = 15
+    Top = 573
+    Width = 35
+    Caption = 'Верно'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 573
+    Width = 48
+    Caption = 'Неверно'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit_1: TEdit
+    Left = 216
+    Height = 23
+    Top = 565
+    Width = 45
+    ReadOnly = True
+    TabOrder = 5
+    Text = '0'
+  end
+  object Edit_2: TEdit
+    Left = 80
+    Height = 23
+    Top = 565
+    Width = 45
+    ReadOnly = True
+    TabOrder = 6
+    Text = '0'
+  end
+  object back: TButton
+    Left = 568
+    Height = 70
+    Top = 528
+    Width = 88
+    Caption = 'В меню'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = backClick
+    ParentFont = False
+    TabOrder = 7
+  end
+end

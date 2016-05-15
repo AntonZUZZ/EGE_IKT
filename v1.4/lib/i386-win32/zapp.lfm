@@ -1,0 +1,128 @@
+object Zap_FF: TZap_FF
+  Left = 808
+  Height = 456
+  Top = 130
+  Width = 767
+  BorderStyle = bsSingle
+  Caption = 'Zap_FF'
+  ClientHeight = 456
+  ClientWidth = 767
+  LCLVersion = '1.2.6.0'
+  object Panel1: TPanel
+    Left = 11
+    Height = 432
+    Top = 8
+    Width = 573
+    ClientHeight = 432
+    ClientWidth = 573
+    Color = clInfoBk
+    ParentColor = False
+    TabOrder = 0
+    object PaintBox1: TPaintBox
+      Left = 8
+      Height = 419
+      Top = 8
+      Width = 555
+      OnMouseDown = PaintBox1MouseDown
+      OnMouseMove = PaintBox1MouseMove
+      OnMouseUp = PaintBox1MouseUp
+    end
+  end
+  object Button2: TButton
+    Left = 624
+    Height = 33
+    Top = 272
+    Width = 104
+    Caption = 'Цвет пера'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 624
+    Height = 15
+    Top = 425
+    Width = 34
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object GroupBox1: TGroupBox
+    Left = 616
+    Height = 184
+    Top = 16
+    Width = 121
+    Caption = 'Размер пера'
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 624
+    Height = 25
+    Top = 40
+    Width = 104
+    Caption = 'Малое '
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 624
+    Height = 25
+    Top = 72
+    Width = 104
+    Caption = 'Небольшое'
+    OnClick = Button1Click
+    TabOrder = 4
+  end
+  object Button4: TButton
+    Left = 624
+    Height = 25
+    Top = 104
+    Width = 104
+    Caption = 'Большое'
+    OnClick = Button4Click
+    TabOrder = 5
+  end
+  object Button5: TButton
+    Left = 624
+    Height = 25
+    Top = 136
+    Width = 104
+    Caption = 'Огромное'
+    OnClick = Button5Click
+    TabOrder = 6
+  end
+  object Button6: TButton
+    Left = 624
+    Height = 25
+    Top = 168
+    Width = 104
+    Caption = 'Заливка'
+    OnClick = Button6Click
+    TabOrder = 7
+  end
+  object ColorDialog1: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    left = 696
+    top = 312
+  end
+end

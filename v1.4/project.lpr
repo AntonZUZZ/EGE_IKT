@@ -1,0 +1,24 @@
+program project;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Interfaces, // this includes the LCL widgetset
+  Forms, main, menu, zapp, Full, main_h
+  { you can add units after this };
+
+{$R *.res}
+
+begin
+  RequireDerivedFormResource := True;
+  Application.Initialize;
+  Application.CreateForm(TMenu_F, Menu_F);
+  Application.CreateForm(TZap_FF, Zap_FF);
+  Application.CreateForm(TFull_F, Full_F);
+  Application.CreateForm(TNomb_F, Nomb_F);
+  Application.Run;
+end.
+
